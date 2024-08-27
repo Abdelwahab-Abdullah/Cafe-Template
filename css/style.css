@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+header nav {
+    padding: 5px;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header nav a {
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+}
+header nav a:hover {
+    background-color: #fff;
+    color: #000;
+} 
+
+
+.main-sec {
+    background-image: url(../images/coffeehouse.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+    filter: grayscale(30%);
+    position: relative;
+
+}
+.main-sec h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    color: #ffffff;
+    letter-spacing: 10px;
+    line-height: 100px;
+}
+.main-sec h1 span {
+    display: block;
+}
+.left {
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+}
+.right {
+    padding: 10px;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-weight: 800;
+}
+
+
+.sec-central{
+    width: 700px;
+    padding: 50px 0 ;
+    margin: auto;
+}
+img {
+    margin: 50px 0;
+    width: 100%;
+}
+section .title {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    width: fit-content;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 5px;
+    white-space: 5px;
+    margin: 50px auto 70px auto;
+}
+.sec-central p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    word-spacing: 3px;
+    
+}
+
+.sec-2 div  {
+    padding: 20px;
+    background-color: #f1f1ff;
+    border-left : 5px solid #8b8b8b;
+}
+
+
+.sec-3 .header {
+    display: flex;
+    box-shadow: 3px 2px 2px #e4e1e1 ,  -3px 2px 2px #e4e1e4e1 , 3px -2px 2px #e4e1e4e1;
+    background-color: #fff;
+    padding: 10px;
+}
+.sec-3 .header button {
+    width: 50%;
+    padding: 8px;
+    border: none;
+    margin: 5px;
+}
+.sec-3 .header .eat {
+    background-color: #5e5959;
+}
+.sec-3 .info {
+    box-shadow: 3px 2px 2px #e4e1e1 ,  -3px 2px 2px #e4e1e4e1;
+    padding: 20px;
+}
+.sec-3 .info h3 {
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.sec-3 .info p {
+    color: #8b8b8b;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.sec-4 p mark {
+    background-color: #000;
+    color: #fff;
+    padding: 2px 5px;
+} 
+.sec-4 form input {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.sec-4 form button {
+    height: 50px;
+    width: 150px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+     
+}
+.sec-4 form button:hover {
+    transform: scale(0.9);
+}
+
+
+footer {
+    padding: 20px;
+    background-color: #dddada;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+    letter-spacing: 5px;
+    word-spacing: 1px;
+}
